@@ -5,4 +5,8 @@ attr_accessor :name ,:posts
     @name = name
   @posts = []
   end
+
+
+
+
 end
