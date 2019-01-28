@@ -16,7 +16,7 @@ attr_accessor :name , :posts , :title
    @posts << post
    post.author = self
   end
-  def self.song_count
+  def self.post_count
   Post.all.count
   end
 
