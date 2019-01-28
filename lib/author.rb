@@ -13,7 +13,7 @@ attr_accessor :name , :posts
 
     def add_post_by_title(name)
    post = Post.new(name)
-   @post << post
+   @posts << post
    post.artist = self
   end
   def self.song_count
